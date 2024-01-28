@@ -1,0 +1,8 @@
+version: "3"
+
+# add environment variable for protobuf
+services:
+  app:
+    image: atomics42/document-answering:main
+    ports:
+      - "8000:80"
